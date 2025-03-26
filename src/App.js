@@ -12,7 +12,7 @@ function App() {
     <div className="bbyproejct">
          <Hd  datainfo={ db.navi } id="hd"
          cls="fixed-top border-bottom bg-white"></Hd>
-         <Banner  datainfo={ db.mainSlider }></Banner>
+         <Banner  datainfo={ db.mainSlider } id="mainSwiper" cls="vh-100"></Banner>
          <About id="about" cls="vh-100 bg-dark"></About>
          <Porfolio id="portfolio" cls="vh-100 bg-warning"></Porfolio>
          <Preinterview 
