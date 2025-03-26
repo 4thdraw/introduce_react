@@ -1,0 +1,19 @@
+@import "pretendard/dist/web/static/pretendard.css";
+
+* {
+  font-family: "Pretendard", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+li{
+    list-style: none;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
