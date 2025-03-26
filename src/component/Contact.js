@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact = ({ id, cls}) => {
     return (
-        <div>
+        <div id={id} className={cls} >
             
         </div>
     );

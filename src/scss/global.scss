@@ -17,3 +17,18 @@ a{
     color:black;
     text-decoration: none;
 }
+
+@for $i from 1 through 9 {
+    .fw#{$i * 100} {
+      font-weight: $i * 100 !important;
+    }
+}
+
+
+// @for $i from 10 through 20 {
+//     .lh#{$i / 10 - 1} {
+//       line-height: #{$i / 10} !important;
+//     }
+// }
+//   .lh1-0,....
+  

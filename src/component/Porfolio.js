@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Porfolio = () => {
+const Porfolio = ({datainfo, cls, id}) => {
     return (
-        <div>
+        <div id={id} className={cls}>
             
         </div>
     );
