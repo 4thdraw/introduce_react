@@ -15,13 +15,13 @@ const Hd = ({datainfo, id, cls}) => {
                     <ul className='d-flex gap-3'>
                        {
                           datainfo.map((v, i)=>{
-                            return(
+                            return (
                                 <li key={`navi${i}`}>
-                                    <a href={v.path}>
+                                    <a href={v.path} target={v.target ? "_blank" : "_self"} rel={v.target ? "noopener noreferrer" : undefined}>
                                         {v.id}
                                     </a>
                                 </li>
-                            )
+                            );
                           })
                        }
                     </ul>
