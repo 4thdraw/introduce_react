@@ -1,26 +1,36 @@
 {
-    "navi" :  [        
+    "navi": [
         {
-          "id": "about",
-          "label": "소개",
-          "path": "#about"
+            "id": "about",
+            "label": "소개",
+            "path": "#about",
+            "target": false
         },
         {
-          "id": "portfolio",
-          "label": "기술 스택",
-          "path": "#portfolio"
+            "id": "portfolio",
+            "label": "기술 스택",
+            "path": "#portfolio",
+            "target": false
         },
         {
             "id": "preInterview",
             "label": "사전인터뷰",
-            "path": "#preInterview"
+            "path": "#preInterview",
+            "target": false
         },
         {
-          "id": "contact",
-          "label": "연락처",
-          "path": "#contact"
+            "id": "contact",
+            "label": "연락처",
+            "path": "#contact",
+            "target": false
+        },
+        {
+            "id": "github",
+            "label": "GitHub",
+            "path": "https://github.com/4thdraw",
+            "target": true
         }
-      ],
+    ],
     "preinterview" : [
         {
           "id": 1,
@@ -101,5 +111,72 @@
                 "mobile": "./img/banner2.png"
             }
             }
-        ]
+        ],
+        "portfolio": [
+          {
+              "id": 1,
+              "title": "프로젝트 A",
+              "description": "React와 Tailwind CSS를 활용한 반응형 웹 애플리케이션.",
+              "image": {
+                  "desktop": "./img/portfolio1_desktop.png",
+                  "mobile": "./img/portfolio1_mobile.png"
+              },
+              "link": "https://example.com/project-a",
+              "figmaLink": "https://figma.com/project-a",
+              "githubLink": "https://github.com/4thdraw/project-a",
+              "interfaceLink": "https://example.com/interface-a"
+          },
+          {
+              "id": 2,
+              "title": "프로젝트 B",
+              "description": "Next.js와 TypeScript를 사용한 서버 사이드 렌더링 웹사이트.",
+              "image": {
+                  "desktop": "./img/portfolio2_desktop.png",
+                  "mobile": "./img/portfolio2_mobile.png"
+              },
+              "link": "https://example.com/project-b",
+              "figmaLink": "https://figma.com/project-b",
+              "githubLink": "https://github.com/4thdraw/project-b",
+              "interfaceLink": "https://example.com/interface-b"
+          },
+          {
+              "id": 3,
+              "title": "프로젝트 C",
+              "description": "Vue.js와 Vuetify를 활용한 대시보드 애플리케이션.",
+              "image": {
+                  "desktop": "./img/portfolio3_desktop.png",
+                  "mobile": "./img/portfolio3_mobile.png"
+              },
+              "link": "https://example.com/project-c",
+              "figmaLink": "https://figma.com/project-c",
+              "githubLink": "https://github.com/4thdraw/project-c",
+              "interfaceLink": "https://example.com/interface-c"
+          },
+          {
+              "id": 4,
+              "title": "프로젝트 D",
+              "description": "React Native를 활용한 모바일 앱 개발 프로젝트.",
+              "image": {
+                  "desktop": "./img/portfolio4_desktop.png",
+                  "mobile": "./img/portfolio4_mobile.png"
+              },
+              "link": "https://example.com/project-d",
+              "figmaLink": "https://figma.com/project-d",
+              "githubLink": "https://github.com/4thdraw/project-d",
+              "interfaceLink": "https://example.com/interface-d"
+          },
+          {
+              "id": 5,
+              "title": "프로젝트 E",
+              "description": "Three.js를 활용한 3D 인터랙티브 웹 애플리케이션.",
+              "image": {
+                  "desktop": "./img/portfolio5_desktop.png",
+                  "mobile": "./img/portfolio5_mobile.png"
+              },
+              "link": "https://example.com/project-e",
+              "figmaLink": "https://figma.com/project-e",
+              "githubLink": "https://github.com/4thdraw/project-e",
+              "interfaceLink": "https://example.com/interface-e"
+          }
+      ]
 }
